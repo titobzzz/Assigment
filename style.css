@@ -1,0 +1,125 @@
+
+*{
+    margin:auto;
+    letter-spacing:2px;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .brand-logo{
+   background-color: #FF4500;
+    margin-right:15px;
+  }
+  navbar{
+    background-color:black;
+    display:flex;
+    height:70px;
+    margin-bottom:0px;
+  }
+  ul{
+    display:flex;
+    gap:30px;
+    box-sizing:border-box; 
+  }
+  li{
+    list-style:none;
+    font-family:poppins;
+  }
+  a{
+    text-decoration:none;
+      color:white;
+    
+  }
+  a:hover{
+  font-size:20px;
+    color:#FF4500;
+  }
+  
+  section{
+    background: #28282B;
+    height:100vh;
+    display:flex;
+    padding:0px 200px;
+    box-sizing:border-box;
+    justify-content:space-around;
+  }
+  .text{
+    margin-top:40px;
+    width:500px;
+  }
+  strong{
+    color:#FF4500;
+  }
+  h1,h2,h3,h4{
+    color:white;
+    font-family:'poppins';
+    font:40px;
+    padding:20px;
+    line-height: 33px;
+  }
+  
+  .profile-picture{
+    font:2em;
+  }
+  button{
+    font-family: "poppins";
+    margin-left:20px;
+    width:120px;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background-color:#FF4500;
+    color:white;
+  }
+  button:hover{
+    width:150px
+  }
+  .display{
+    display:flex;
+    flex-direction:column;
+      }
+  form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    width:100%;
+  }
+  input[type=text], textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background:grey;
+    color:white;
+    font-family: "poppins";
+  }
+  input::placeholder{
+    color:white
+  }
+  .submit-button{
+    margin-left:90px
+  }
+  .projects{
+    margin:auto;
+    box-sizing:border-box;
+  }
+  .projects ul{
+     display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+  }
+  
+  .ul > li{
+    color:white;
+    font-family:"poppins";
+    display:flex;
+    flex-direction:column;
+  }
+  .ul>li>h3{
+   color:#FF4500; 
+  }
+  
